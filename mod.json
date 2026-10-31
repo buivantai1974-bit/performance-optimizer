@@ -1,0 +1,16 @@
+{
+  "geode": "2.2.0",
+  "version": "1.0.0",
+  "id": "engineer.performance_optimizer",
+  "name": "Performance Optimizer",
+  "developer": "Engineer",
+  "description": "Culls off-screen objects, cuts particles, hides BG, kills glow. No physics touched.",
+  "settings": {
+    "enable-culling": { "type": "bool", "default": true, "name": "Object Culling" },
+    "cull-margin": { "type": "float", "default": 200.0, "name": "Cull Margin (px)" },
+    "enable-particles": { "type": "bool", "default": true, "name": "Particle Reducer" },
+    "particle-limit": { "type": "int", "default": 50, "name": "Max Particles" },
+    "hide-background": { "type": "bool", "default": false, "name": "Hide Background" },
+    "disable-glow": { "type": "bool", "default": true, "name": "Disable Glow/Shaders" }
+  }
+}
