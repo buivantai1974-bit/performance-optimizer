@@ -48,4 +48,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: PerformanceOptimizer-geode
-          path: build/*.geode
+path: build/**/*.geode
