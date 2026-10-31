@@ -1,0 +1,9 @@
+build/
+.geode/
+*.geode
+.cache/
+.vscode/
+.idea/
+*.o
+*.so
+*.dylib
